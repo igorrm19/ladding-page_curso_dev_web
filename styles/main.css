@@ -21,13 +21,16 @@
 .main-hero-section-button {
     background: linear-gradient(to right, #8a2be2, #0000ff);
     color: rgb(233, 239, 245);
+    text-align: center;
     cursor: pointer;
     height: calc(7vh - 2vh);
     width: 4.5rem;
-    border-radius: 30%;
+    border-radius: 31%;
     border: none;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -78,6 +81,9 @@ span{
      }
 }
 
+/*
+  ultimo commit
+*/
 
 
 
