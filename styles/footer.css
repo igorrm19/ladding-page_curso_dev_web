@@ -19,8 +19,3 @@ ul#footer-ul-social-midia{
 
 
 
-@media (max-width: 275px) { 
-    ul#footer-ul-social-midia {
-        flex-direction: column; 
-    }
-}
