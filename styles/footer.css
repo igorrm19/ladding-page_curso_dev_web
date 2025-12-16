@@ -16,3 +16,11 @@ ul#footer-ul-social-midia{
     margin-top: 1rem; 
     justify-content: center;
 }
+
+
+
+@media (max-width: 480px) { 
+    ul#footer-ul-social-midia {
+        flex-direction: column; 
+    }
+}

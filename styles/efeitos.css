@@ -3,25 +3,8 @@ button:hover{
 }
 
 
-@media screen and (min-width: 475px) and (max-width: 700px) {
+/* 
 
-    .main-services-container{
-        flex-direction: column;
-        height: 170vh;
-        margin-top: 700px;
-    }
+ novo commit
 
-    .card{
-        width: 65vw;
-    }
-
-}
-
-
-@media (max-width: 480px) { 
-    ul#footer-ul-social-midia {
-        flex-direction: column; 
-    }
-}
-
-
+*/
