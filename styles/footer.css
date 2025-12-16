@@ -1,0 +1,18 @@
+.footer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    flex-direction: column;
+    gap: 1rem;
+    position: static;
+}
+
+ul#footer-ul-social-midia{
+    display: flex;
+    list-style: none;
+    gap: 1rem; 
+    margin-top: 1rem; 
+    justify-content: center;
+}

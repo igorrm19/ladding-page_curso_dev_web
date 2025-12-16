@@ -1,0 +1,27 @@
+button:hover{
+    background: linear-gradient(to right, #2ba8e2, #0000ff);
+}
+
+
+@media screen and (min-width: 475px) and (max-width: 700px) {
+
+    .main-services-container{
+        flex-direction: column;
+        height: 170vh;
+        margin-top: 700px;
+    }
+
+    .card{
+        width: 65vw;
+    }
+
+}
+
+
+@media (max-width: 480px) { 
+    ul#footer-ul-social-midia {
+        flex-direction: column; 
+    }
+}
+
+

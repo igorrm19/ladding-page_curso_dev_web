@@ -1,0 +1,80 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/jogos-de-personagens-de-anime-esteticos.jpg);
+    background-size: 90vw auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: var(--cor-secundaria);
+    background-blend-mode: multiply;
+}
+
+.main-hero-section-button {
+    background: linear-gradient(to right, #8a2be2, #0000ff);
+    color: rgb(233, 239, 245);
+    cursor: pointer;
+    height: calc(7vh - 2vh);
+    width: 4.5rem;
+    border-radius: 30%;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.main-hero-section-container {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    font-style: normal;
+    padding: 1rem;
+}
+
+.main-hero-section div {
+    position: absolute;
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-services {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    background: linear-gradient(to right, #8a2be2, #0000ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+@media screen and (min-width: 475px) and (max-width: 700px) {
+
+    .main-services-container{
+        flex-direction: column;
+        height: 300px;
+    }
+     .footer{
+        margin-top: 750px;
+     }
+}

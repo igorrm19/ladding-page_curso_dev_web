@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #000B58;
+    --cor-secundaria: #003161;
+    --cor-terciaria: #6e1392;
+    --cor-quaternaria: #FDEB9E;
+}
+
+/* Paleta de cores: https://colorhunt.co/palette/000b58003161006a67fdeb9e */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-principal);
+    color: var(--cor-quaternaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+@media screen and (min-width: 475px) and (max-width: 700px) {
+    body{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    p{
+        font-size: 13px;
+    }
+    ul{
+        font-size: 13px;
+    }
+    li{
+        font-size: 13px;
+    }
+    button{
+        width: 100%;
+    }
+}
