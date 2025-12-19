@@ -8,4 +8,4 @@ link: https://igorrm19.github.io/ladding-page_curso_dev_web/
 
  <img src="./images/Screenshot from 2025-12-19 10-11-35.png" alt=""> 
 
- <img src="./images/Screenshot from 2025-12-19 10-11-35.png">
+ <img src="./images/Screenshot from 2025-12-19 10-16-51.png">
